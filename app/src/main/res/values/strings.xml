@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">WaifuKu</string>
+    <string name="waifu_name">Waifu</string>
+    <string name="description">Deskripsi karakter</string>
+    <string name="detail">Lebih tahu tentangnya</string>
+    <string name="profile">Profile</string>
+
+
+    <integer-array name="data_photo">
+        <item>@drawable/waifu_raiden_shogun</item>
+        <item>@drawable/waifu_akame_ga_kill</item>
+        <item>@drawable/waifu_kaguya_sama</item>
+        <item>@drawable/waifu_makima</item>
+        <item>@drawable/waifu_makise_kurisu</item>
+        <item>@drawable/waifu_nero</item>
+        <item>@drawable/waifu_mikasa_ackerman</item>
+        <item>@drawable/waifu_sakurajima</item>
+        <item>@drawable/waifu_touka</item>
+        <item>@drawable/waifu_yor_forger</item>
+        <item>@drawable/waifu_yumeko_jabami</item>
+        <item>@drawable/waifu_zero_two</item>
+    </integer-array>
+
+    <string-array name="data_detail">
+        <item>
+            Raiden Shogun adalah sebuah boneka yang diciptakan oleh Ei sebagai penampung jiwanya untuk memerintah Inazuma. Ei adalah karakter dari sebuah game bernama Genshin Impact yang dibuat dan dikembangkan oleh Hoyoverse. Ei diketahui memiliki masa lalu kelam karena kehilangan kakaknya di medan perang.
+        </item>
+        <item>
+            Akame adalah karakter dari anime Akame Ga Kill! yang ditayangkan di tahun 2014. Anime ini termasuk brutal karena terdapat adegan-adegan yang kurang nyaman dipandang.
+        </item>
+        <item>
+            Kaguya Shinomiya adalah karakter perempuan dari anime Love is War yang diadaptasi dari manga yang ditulis oleh Aka Akasaka.
+        </item>
+        <item>
+            Makima adalah karakter kuat dari anime Chainsaw Man, anime yang bisa dibilang cukup brutal karena penuh adegan sadis di dalamnya. Anime ini merupakan adaptasi dari manga yang ditulis oleh Tatsuki Fujimoto.
+        </item>
+        <item>
+            Makise Kurisu adalah karakter perempuan dari anime Steins Gate yang merupakan adaptasi Steins Gate yang ditulis oleh Chiyomaru Shikura, Naotaka Hayashi, Shimokura Vio, Tanizaki Ouka.
+        </item>
+        <item>
+            Nero adalah karakter perempuan dari anime Black Clover yang diilustrasikan manganya oleh Yuki Tabata. Manga ini diterbitkan pada tanggal 16 Februari 2015.
+        </item>
+        <item>
+            Mikasa Ackerman adalah karakter perempuan dari anime Attack on Titan yang diilustrasikan manganya oleh Hajime Isayama.
+        </item>
+        <item>
+            Sakurajima Mai adalah karakter wanita dari anime Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai yang ditulis oleh Hajime Kamoshida.
+        </item>
+        <item>
+            Touka Kirishima adalah karakter perempuann dari anime dan manga Tokyo Ghoul yang ditulis manganya oleh Sui Ishida
+        </item>
+        <item>
+            Yor Forger adalah karakter wanita dari anime dan manga SpyXFamily yang ditulis oleh Tatsuya Endo.
+        </item>
+        <item>
+            Yumeko Jabami adalah karakter wanita dari anime Kakegurui yang hobi berjudi. Kakegurui ditulis dan diilustrasikan oleh Homura Kawamoto dan Toru Naomura.
+        </item>
+        <item>
+            Zero Two adalah karakter wanita dari anime Darling in The Franxx yang manganya ditulis dan diilustrasikan oleh Kentaro Yabuki
+        </item>
+    </string-array>
+
+    <string-array name="data_name">
+        <item>Raiden Shogun</item>
+        <item>Akame</item>
+        <item>Kaguya Shinomiya</item>
+        <item>Makima</item>
+        <item>Makise Kurisu</item>
+        <item>Nero</item>
+        <item>Mikasa Ackerman</item>
+        <item>Sakurajima Mai</item>
+        <item>Touka Kirishima</item>
+        <item>Yor Forger</item>
+        <item>Yumeko Jabami</item>
+        <item>Zero Two</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Raiden Shogun (puppet) atau Ei (entitas manusia) adalah seorang Electro Archon yang mendiami Inazuma.Ia memiliki keahlian dalam menggunakan tombak. Meskipun, parasnya cantik rupawan, ia adalah salah satu archon yang bisa dibilang kejam karena mengisolasi Inazuma untuk mencapai suatu esensi yang ia sebut keabadian. Ei memiliki karakter yang serius, memiliki otoritas tinggi dan memiliki visi kuat untuk kemajuan Inazuma. Ia mengurung jiwanya di sebuah entitas dan menanamkan kesadarannya di sebuah boneka yang bernama Raiden Shogun. Ei adalah entitas manusia yang sebenarnya.
+        </item>
+        <item>Akame adalah seorang pemberontak dari kelompok "Night Raid" yang berjuang untuk melawan pemerintahan korup di negaranya. Akame dan Night Raid bertujuan untuk menjatuhkan tirani pemerintahan untuk kemakmuran masyarakat. Akame ahli dalam menggunakan pedang dan matanya sangat tajam. Akame dijuluki "The Killer Eyes" yang dapat melihat energi pembunuh dan melihat serangan lawan secara akurat. Akame menggunakan senjata bernama "murderer" yang sangat beracun.
+        </item>
+        <item>Kaguya Shinomiya adalah putri dari keluarga yang sangat makmur dan berpengaruh, ia merupakan wakil ketua dari Dewan Siswa di sekolahnya yang prestisius. Kaguya sangat cerdas dan penampilannya yang anggun, ia adalah seorang gadis yang serius dan terkendali. Ia memiliki teman dekat Chika Fujiwara, Miyuki Shirogane, dan Yu Ishigami. Visi dan misinya sebagai murid di sekolah sangat jelas, ia berambisi untuk terus menjadi nomor 1 dan selalu bersaing dengan saingannya sekaligus ketua OSIS, yaitu Miyuki Shirogane.
+        </item>
+        <item>Makima adalah perempuan elegan nan cantik dengan rambut merahnya. Ia memiliki humor yang baik, tetapi terkadang ia sangat serius ketika ada masalah yang menyangkut organisasinya. Ia mempunyai kawan dekat bernama Denji, meskipun sebenarnya Makima hanya menggunakannya saja. Makima adalah salah satu iblis terkuat dengan keahlian "kontrol". Oleh karena itu, hampir semua orang terdekatnya segan kepada Makima karena kekuatannya yang mengerikan itu.
+        </item>
+        <item>Makise Kurisu adalah gadis jenius yang berada di dalam organisasi Victor Qondria University\'s Brain Research Program. Ketika ia menghadiri seminar bertemakan mesin waktu, ia bertemu dengan Okabe, seorang ilmuwan jenius yang juga gila. Ia merupakan wanita yang bijaksana, dewasa, serius, dan tenang. Meskipun demikian, Makise Kurisu juga memiliki sisi pemalu. Ia sangat memercayai bahwa mesin waktu itu hanyalah fiksi bahkan setelah melihat alat itu bekerja di depan matanya.
+        </item>
+        <item>Nero pada awalnya adalah sebuah burung yang selalu hinggap di seorang anak bernama Asta, tetapi ada suatu momen yang membuat dia bertransformasi menjadi gadis cantik berambut hitam pendek. Ia adalah teman kaisar pertama kerajaan Clover, membantu kaisar pertama untuk menyegel iblis sehingga tumbuh tanduk di kepalanya dan berubah menjadi burung. Nero juga memiliki sihir penyembuhan, sihir ini digunakan ketika kaisar pertama terluka saaat melawan iblis.
+        </item>
+        <item>Mikasa Ackerman adalah seorang pejuang yang melindungi umat manusia dari invansi Titan. Karakter yang Mikasa miliki sangat berbeda ketika sedang menggunakan full-set manuever gearnya dengan menjadi gadis biasa. Penampilannya sungguh berwibawa ketika sedang menjalankan tugasnya dan sangat keibuan ketika menjadi gadis biasa. Ia memiliki sahabat bernama Eren Yaeger, yang mana teman kecilnya yang kehilangan keluarganya karena invasi Titan saat mereka masih kecil. Mikasa awalnya tidak bisa bertarung, tetapi keadaan memaksanya untuk berlatih, alhasil dia menjadi perempuan terkuat dari umat manusia untuk melawan Titan. Bagi Mikasa, Eren adalah orang yang paling berharga untuknya sehingga ia memosisikan hidup Eren di atas hidupnya.
+        </item>
+        <item>Sakurajima Mai adalah aktris terkenal yang telah mencapai popularitas tertinggi di industri hiburan Jepang. Namun, suatu waktu dia mengalami fenomena aneh yang disebut "Pubertas Sindrom". Hal tersebut membuatnya menjadi tak terlihat atau tidak diperhatikan oleh orang-orang sekitarnya. Akibatnya ia memutuskan untuk berhenti menjadi aktris dan mulai menjalani kehidupan sebagai murid SMA biasa. Namun, ternyata fenomena tersebut tetap berlanjut ketika dia sedang menjalani kehidupan SMAnya.
+        </item>
+        <item>Touka Kirishima adalah seorang Ghoul, yang merupakan makhluk pemakan daging manusia dengan kemampuan fisik yang luar biasa. Dia adalah salah satu anggota dari Anteiku, sebuah kedai kopi yang menyediakan tempat perlindungan bagi Ghoul yang ingin hidup berdampingan dengan manusia di tengah masyarakat manusia. Meskipun dirinya adalah Ghoul, Touka memiliki prinsip yang kuat untuk tidak memakan atau melukai manusia. Touka termasuk salah satu Ghoul terkuat di Jepang dengan kemampuan fisik dan kekuatan Ghoul yang luar biasa.
+        </item>
+        <item>Yor Forger adalah pegawai biasa di Balai Kota Berlint, tetapi di balik kehidupannya yang biasa ia adalah seorang pembunuh bayaran. Ia memiliki nama asli Yor Briar dan ketika bertemu dengan Loid Forger, Yor mengganti nama belakangnya menjadi Forger. Alasannya karena Loid Forger menikahi Yor untuk membangun keluarga palsu dengan Anya sebagai anaknya. Yor memiliki kemampuan luar biasa, ia selalu bernampilan anggun meskipun dalam mode pembunuh.
+        </item>
+        <item>Yumeko Jabami adalah seorang perempuan yang memiliki kemampuan hebat dalam berjudi. Ia bersekolah di tempat yang sangat kental perjudiannya. Kemampuan itu tidak disia-siakan, Yumeko Jabami berniat untuk mengalahkan semua orang yang hebat dalam berjudi di sekolah itu. Beberapa kali ia hampir kalah, tetapi intuisi dan pengalamannya dalam berjudi selalu menyelamatkan Yumeko dari kekalahan saat berjudi. Semua orang di sekolahnya sangat waspada terhadap Yumeko karena ia bisa menjadi ular ketika di posisi yang sulit.
+        </item>
+        <item>Zero Two adalah seorang pilot Franxx, mesin tempur raksasa dalam dunia futuristik di mana manusia harus berperang melawan makhluk misterius yang disebut "Klaxosaurs" untuk melindungi sisa-sisa peradaban manusia. Dia adalah pilot yang sangat berbakat dan memiliki reputasi sebagai "Penyemprot Klaxosaurs," mengacu pada tingkat keberhasilannya dalam mengalahkan Klaxosaurs. Ia berpenampilan mencolok dengan dua tanduk di kepalanya dan pakaian bernuansa pink. Zero Two juga termasuk pilot yang sangat hebat dalam memiloti Franxx. Namun, Zero Two memiliki sifat yang rentan, terkadang ia lembut, terkadang ia keras.
+        </item>
+    </string-array>
+
+
+</resources>

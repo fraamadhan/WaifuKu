@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".DetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/top_background"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#633C3C"
+            android:backgroundTint="#632D21"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/image_detail"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/waifu_zero_two"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.09"
+            app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+        <TextView
+            android:id="@+id/tv_title_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="monospace"
+            android:text="@string/description"
+            android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+            android:textSize="20sp"
+            android:textColor="#454545"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image_detail" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="monospace"
+            android:text="@string/waifu_name"
+            android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+            android:textSize="20sp"
+            android:textColor="#454545"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_title_description" />
+
+        <TextView
+            android:id="@+id/tv_content_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+            android:fontFamily="serif-monospace"
+            android:textSize="17sp"
+            android:text="@string/description"
+            app:layout_constraintStart_toStartOf="@id/tv_name"
+            app:layout_constraintTop_toBottomOf="@id/tv_name" />
+
+        <TextView
+            android:id="@+id/tv_title_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:text="@string/detail"
+            android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+            android:textColor="#454545"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_content_description" />
+
+        <TextView
+            android:id="@+id/tv_content_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="17sp"
+            android:fontFamily="serif-monospace"
+            android:text="@string/detail"
+            app:layout_constraintStart_toStartOf="@id/tv_title_detail"
+            app:layout_constraintTop_toBottomOf="@id/tv_title_detail"
+            android:paddingBottom="16dp"/>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
