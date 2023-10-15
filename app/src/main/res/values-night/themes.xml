@@ -1,15 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-<!--    &lt;!&ndash; Base application theme. &ndash;&gt;-->
-<!--    <style name="Base.Theme.WaifuKu" parent="Theme.Material3.DayNight">-->
-<!--        <item name="colorPrimary">#404258</item>-->
-<!--        <item name="colorPrimaryVariant">#474E68</item>-->
-<!--        <item name="colorOnPrimary">#50577A</item>-->
-<!--        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>-->
-<!--    </style>-->
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WaifuKu" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">#404258</item>
+        <item name="colorPrimaryVariant">#474E68</item>
+        <item name="colorOnPrimary">#50577A</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
 
-<!--    <style name="roundedImageView" parent="Theme.AppCompat.DayNight.NoActionBar">-->
-<!--        <item name="cornerFamily">rounded</item>-->
-<!--        <item name="cornerSize">20dp</item>-->
-<!--    </style>-->
+<!--        <item name="android:windowActivityTransitions">true</item>-->
+<!--        <item name="android:windowEnterTransition">@android:transition/explode</item>-->
+<!--        <item name="android:windowExitTransition">@android:transition/explode</item>-->
+    </style>
+
+    <style name="roundedImageView" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
 </resources>
 

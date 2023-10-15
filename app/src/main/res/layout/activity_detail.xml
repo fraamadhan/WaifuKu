@@ -18,17 +18,19 @@
             android:layout_height="300dp"
             android:background="#633C3C"
             android:backgroundTint="#632D21"
+            android:contentDescription="bgColor"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
 
         <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/image_detail"
+            android:id="@+id/img_item_photo"
             android:layout_width="200dp"
             android:layout_height="300dp"
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"
             android:src="@drawable/waifu_zero_two"
+            android:transitionName="profile"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
@@ -41,7 +43,7 @@
             android:id="@+id/tv_title_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:fontFamily="monospace"
             android:text="@string/description"
@@ -49,17 +51,20 @@
             android:textSize="20sp"
             android:textColor="#454545"
             android:textStyle="bold"
+            tools:alpha="100"
+            android:alpha="0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/image_detail" />
+            app:layout_constraintTop_toBottomOf="@id/img_item_photo" />
 
         <TextView
-            android:id="@+id/tv_name"
+            android:id="@+id/tv_item_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="25dp"
             android:fontFamily="monospace"
             android:text="@string/waifu_name"
+            android:transitionName="name"
             android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
             android:textSize="20sp"
             android:textColor="#454545"
@@ -68,23 +73,24 @@
             app:layout_constraintTop_toBottomOf="@id/tv_title_description" />
 
         <TextView
-            android:id="@+id/tv_content_description"
+            android:id="@+id/tv_item_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
+            android:transitionName="description"
             android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
             android:fontFamily="serif-monospace"
             android:textSize="17sp"
             android:text="@string/description"
-            app:layout_constraintStart_toStartOf="@id/tv_name"
-            app:layout_constraintTop_toBottomOf="@id/tv_name" />
+            app:layout_constraintStart_toStartOf="@id/tv_item_name"
+            app:layout_constraintTop_toBottomOf="@id/tv_item_name" />
 
         <TextView
             android:id="@+id/tv_title_detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="25dp"
             android:fontFamily="monospace"
             android:textSize="20sp"
@@ -92,24 +98,25 @@
             android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
             android:textColor="#454545"
             android:textStyle="bold"
+            tools:alpha="100"
+            android:alpha="0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_content_description" />
+            app:layout_constraintTop_toBottomOf="@id/tv_item_description" />
 
         <TextView
             android:id="@+id/tv_content_detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:textSize="17sp"
             android:fontFamily="serif-monospace"
+            tools:alpha="100"
+            android:alpha="0"
             android:text="@string/detail"
             app:layout_constraintStart_toStartOf="@id/tv_title_detail"
             app:layout_constraintTop_toBottomOf="@id/tv_title_detail"
             android:paddingBottom="16dp"/>
-
-
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

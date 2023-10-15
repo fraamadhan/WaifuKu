@@ -19,15 +19,16 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF">
 
-        <ImageView
+        <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/img_item_photo"
             android:layout_width="100dp"
             android:layout_height="150dp"
             android:scaleType="centerCrop"
             android:src="@drawable/waifu_raiden_shogun"
+            android:transitionName="profile"
             card_view:layout_constraintBottom_toBottomOf="parent"
             card_view:layout_constraintStart_toStartOf="parent"
-            card_view:layout_constraintTop_toTopOf="parent" />
+            card_view:layout_constraintTop_toTopOf="parent"/>
 
         <TextView
             android:id="@+id/tv_item_name"
@@ -40,6 +41,7 @@
             android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
             android:textColor="@color/white"
             android:textStyle="bold"
+            android:transitionName="name"
             card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintStart_toEndOf="@id/img_item_photo"
             card_view:layout_constraintTop_toTopOf="@id/img_item_photo" />
@@ -54,6 +56,7 @@
             android:text="@string/description"
             android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
             android:textColor="#FFFFDD"
+            android:transitionName="description"
             card_view:layout_constraintBottom_toBottomOf="@id/img_item_photo"
             card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintStart_toEndOf="@id/img_item_photo"

@@ -1,9 +1,12 @@
 package com.example.waifuku
 
+import android.animation.AnimatorSet
+import android.animation.ObjectAnimator
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Build
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.waifuku.databinding.ActivityDetailBinding
 
@@ -34,11 +37,28 @@ class DetailActivity : AppCompatActivity(){
 
         if (waifuDetail != null){
             val text = waifuDetail.description
-            binding.imageDetail.setImageResource(waifuDetail.photo)
-            binding.tvName.text = waifuDetail.name
-            binding.tvContentDescription.text = text
-            binding.tvContentDetail.text = waifuDetail.detail
+            binding.apply {
+                imgItemPhoto.setImageResource(waifuDetail.photo)
+                tvItemName.text = waifuDetail.name
+                tvItemDescription.text = text
+                tvContentDetail.text = waifuDetail.detail
+            }
         }
+
+        fadeIn()
+    }
+
+    private fun fadeIn() {
+        binding.apply {
+            val titleDetail = ObjectAnimator.ofFloat(tvTitleDetail, View.ALPHA, 1f).setDuration(500)
+            val titleDesc = ObjectAnimator.ofFloat(tvTitleDescription, View.ALPHA, 1f).setDuration(500)
+            val contentDetail = ObjectAnimator.ofFloat(tvContentDetail, View.ALPHA, 1f).setDuration(500)
+
+            AnimatorSet().apply {
+                playSequentially(titleDetail, titleDesc, contentDetail)
+            }.start()
+        }
+
     }
 
 }

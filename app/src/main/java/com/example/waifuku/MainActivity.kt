@@ -75,14 +75,14 @@ class MainActivity : AppCompatActivity() {
         val listWaifuAdapter = ListsWaifuAdapter(list)
         rvWaifus.adapter = listWaifuAdapter
 
-        listWaifuAdapter.setOnItemClickCallback(object : ListsWaifuAdapter.OnItemClickCallback{
-            override fun onItemClicked(data: Waifu) {
-//                showSelectedHero(data)
-                val intentToDetail = Intent(this@MainActivity, DetailActivity::class.java)
-                intentToDetail.putExtra(DetailActivity.EXTRA_DATA, data)
-                startActivity(intentToDetail)
-            }
-
-        })
+//        listWaifuAdapter.setOnItemClickCallback(object : ListsWaifuAdapter.OnItemClickCallback{
+//            override fun onItemClicked(data: Waifu) {
+////                showSelectedHero(data)
+//                val intentToDetail = Intent(this@MainActivity, DetailActivity::class.java)
+//                intentToDetail.putExtra(DetailActivity.EXTRA_DATA, data)
+//                startActivity(intentToDetail)
+//            }
+//
+//        })
     }
 }
