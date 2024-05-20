@@ -1,6 +1,6 @@
 # WaifuKu
 Dicoding Android Beginner : I create simple android application that implementing recycler view and animation. 
-#Appendix
+# Appendix
 - Splash Screen
 ![Splash Screen](screenshot/splashscreen.jpg) <br>
 - Home Screen
